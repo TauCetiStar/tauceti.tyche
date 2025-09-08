@@ -28,7 +28,7 @@ import org.tauceti.tyche.util.StatUtil;
 public class SumCondition extends Condition<Long> {
 
 	public SumCondition(Range<Long> range) {
-		super("sum (总和)");
+		super("sum");
 		setRange(range);
 	}
 

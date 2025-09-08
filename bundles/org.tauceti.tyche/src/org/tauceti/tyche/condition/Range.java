@@ -112,5 +112,4 @@ public class Range<T extends Comparable<T>> {
 		String text = this.leftNotation + this.min + "," + this.max + this.rightNotation;
 		return text;
 	}
-
 }

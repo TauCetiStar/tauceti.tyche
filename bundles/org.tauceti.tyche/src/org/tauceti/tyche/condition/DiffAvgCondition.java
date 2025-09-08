@@ -28,7 +28,7 @@ import org.tauceti.tyche.util.StatUtil;
 public class DiffAvgCondition extends Condition<Integer> {
 
 	public DiffAvgCondition(Range<Integer> range) {
-		super("avg diff (å¹³å�‡é—´è·�)");
+		super("avg diff");
 		setRange(range);
 	}
 

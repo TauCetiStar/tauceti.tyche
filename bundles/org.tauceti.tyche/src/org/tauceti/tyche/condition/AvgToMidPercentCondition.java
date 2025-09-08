@@ -28,7 +28,7 @@ import org.tauceti.tyche.util.StatUtil;
 public class AvgToMidPercentCondition extends Condition<Integer> {
 
 	public AvgToMidPercentCondition(Range<Integer> range) {
-		super("avg/mid (å�‡å€¼/ä¸­å€¼)");
+		super("avg/mid");
 		setRange(range);
 	}
 
