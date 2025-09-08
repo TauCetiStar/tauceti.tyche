@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TauCeti Tyche
+Bundle-SymbolicName: org.tauceti.tyche;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.tauceti.tyche;version="1.0.0",
+ org.tauceti.tyche.analysis;version="1.0.0",
+ org.tauceti.tyche.chart;version="1.0.0",
+ org.tauceti.tyche.chart.impl;version="1.0.0",
+ org.tauceti.tyche.condition;version="1.0.0",
+ org.tauceti.tyche.filter;version="1.0.0",
+ org.tauceti.tyche.gen;version="1.0.0",
+ org.tauceti.tyche.megamillion;version="1.0.0",
+ org.tauceti.tyche.model;version="1.0.0",
+ org.tauceti.tyche.model.impl;version="1.0.0",
+ org.tauceti.tyche.powerball;version="1.0.0",
+ org.tauceti.tyche.util;version="1.0.0"
+Bundle-Activator: org.tauceti.tyche.Activator
+Bundle-ClassPath: lib/commons-io-2.11.0.jar,
+ .
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: org.osgi.framework;version="1.3.0"
+Automatic-Module-Name: org.tauceti.tyche
+Bundle-ActivationPolicy: lazy
